@@ -1,11 +1,9 @@
 .container {
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat(12, auto);
-    grid-template-rows: repeat(6,100px);
-    grid-template-rows: repeat(6,200px);
 
-
+    grid-template-columns: repeat(6,300px);
+    grid-template-rows: 50px minmax(10px,200px) 250px;
 
 }
 
